@@ -1,0 +1,118 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{}
+/*--------------------*/
+
+body{
+	background: url('../img/background.jpg');
+	margin: 0;
+  	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  	font-size: 16px;
+  	line-height: 32px;
+  	color: #222222;
+}
+*,
+*:before,
+*:fater{
+	box-sizing: border-box;
+}
+
+/*Container
+========================*/
+
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+ /*Header
+ =========================*/
+
+.header{
+	background-color: rgb(238,183,176);
+	border-bottom: 2px solid;
+}
+.header-text{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 20px 35px;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px black;
+}
+.header-text__one{
+	font-style: italic;
+}
+
+.header-text__two{
+	font-size: 20px;
+}
+
+/*Block-1
+==============================*/
+
+.block-1{
+	font-size: 26px;
+	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+	height: 765px;
+	background: url(../img/first-block.jpg) no-repeat center fixed;
+	background-size: ;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 2px solid;
+}
+.block-1__text{
+	padding-top: 450px;
+	height: 765px;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+}
+
+/*Block-2
+==============================*/
+
+.Block-2{ 
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0;
+ }
+ .block-2__profile{
+ 	width: 50%;
+ 	text-align: center;
+
+ }
+
+ .block-2__image{
+ 	height: 250px;
+ 	border-radius: 50%;
+ 	border: 5px solid rgb(238,183,176);
+ }
+
+.block-2__image:hover{
+	box-shadow: 0 0 10px rgb(238,183,176);
+}
+
+ .block-2__title{
+ 	font-size: 26px;
+ 	margin: 15px 0;
+ }
+
+ .block-2__text{
+ 	font-size: 18px;
+ }
