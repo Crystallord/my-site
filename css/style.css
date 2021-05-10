@@ -211,5 +211,10 @@ body{
 	.container{
 		max-width: none;
 	}
-
+	.Block-2{
+		margin: 5px;
+	}
+	.block-2__profile{
+		min-width: none;
+	}
 }
