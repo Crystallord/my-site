@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6{}
 /*--------------------*/
 
 body{
+	width:100%;
 	background: url('../img/background.jpg');
 	margin: 0;
   	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
