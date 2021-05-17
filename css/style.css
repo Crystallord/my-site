@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{}
 /*--------------------*/
 
 body{
-	width:100%;
+	width: 100%;
 	background: url('../img/background.jpg');
 	margin: 0;
   	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
@@ -158,8 +158,8 @@ body{
 }
 
 .block-3__item{
-	width: 25%;
-	min-width: 450px;
+	width: 33.333%;
+	min-width: 500px;
 	flex-grow: 1;
 	position: relative;
 	overflow: hidden;
@@ -206,7 +206,7 @@ body{
 .block-3__text{
 	font-size: 18px;
 }
-
+/*
 @media (max-width: 767px){
 	.container{
 		max-width: none;
@@ -218,3 +218,151 @@ body{
 		min-width: none;
 	}
 }
+
+/*--------------------УТРО----------------------*/
+
+.Morning{
+   margin: 75px 0 50px 0;
+}
+
+.container__text{
+   font-size: 24px;
+   text-align: center;
+   vertical-align: auto;
+   padding-top: auto;
+   padding-bottom: auto;
+   color: #222222;
+   text-shadow: none;
+}
+
+.wrapper{
+	padding: 30px;
+	min-height: 100%;
+}
+.image-slider{
+	padding: 30px 0 70px 0;
+}
+
+.image-slider__image {
+	text-align: center;
+}
+
+.image-slider__image img{
+	max-width: 100%;
+	padding: 30px; /* Ширина паспарту */
+   background: #fff; /* Цвет фона  паспарту */
+   border: 2px solid #666; /* Параметры рамки */ 
+}
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+   color: #666;
+   font-size: 80px;
+}
+
+
+/*--------------------Свидетели----------------------*/
+
+.container__text{
+   font-size: 22px;
+   padding-top: 50px;
+}
+
+.visit__title{
+   font-size: 24px;
+   padding: 50px 0 0 0;
+   margin: 0 auto;
+}
+
+
+/*--------------------Церемония----------------------*/
+
+.video_container{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center;
+}
+
+
+.video{
+   margin: 50px 0;
+   max-width: 100%;
+	padding: 20px; /* Ширина паспарту */
+   background: #fff; /* Цвет фона  паспарту */
+   border: 2px solid #666; /* Параметры рамки */ 
+   margin-left: auto;
+   margin-right: auto;
+   width: 1480px;
+}
+
+.video:hover{
+   box-shadow: 0 0 10px #222222;
+}
+
+.video__item{
+   width: 100%;
+}
+
+/*--------------------Поручители----------------------*/
+
+.container__content{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.container__text{
+	width: 100%;
+}
+
+.container-reference{
+   margin-top: 15px;
+   width: 465px;
+   margin-left: auto;
+   border: 1px solid #222222;
+   font-style: italic;
+   margin-bottom: 25px;
+}
+
+.container-reference:hover{
+   background: rgba(238,183,176,.9);
+   transition-delay: .03s;
+}
+
+.container-refecence__title{
+   font-size: 22px;
+   font-weight: 700;
+}
+
+.double-profile{
+   display: flex;
+  padding: 0 275px;
+   padding-top: 50px;
+}
+
+.double-profile__image{
+   width: 150px;
+   flex: 1 1 auto;
+  margin: 0 5px;
+}
+
+.double-profile__title{
+   display: flex;
+   padding: 0 275px;
+}
+
+.double-profile__title-text{
+   width: 150px;
+   flex: 1 1 auto;
+  margin: 0 5px;
+}
+
+.double-profile__text{
+   margin: 0 auto;
+   margin-top: 50px;
+   width: 750px;
+}
+/*--------------------Церковь----------------------*/
